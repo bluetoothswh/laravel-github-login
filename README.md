@@ -2,6 +2,8 @@
 
 使用github登录laravel 集成包
 
+<img src="http://ox5dwi7xi.bkt.clouddn.com/201711/github-login-cover.png">
+
 # 安装
 ````
 composer require laramall/laravel-github-login
