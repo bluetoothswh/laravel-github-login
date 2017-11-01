@@ -1,0 +1,36 @@
+{
+    "name": "laramall/laravel-github-login",
+    "type": "package",
+    "description": "基于laravel5.5的 登录组件",
+    "keywords": ["laravel5.5", "laravle后台组件", "github账号登录laravel"],
+    "homepage": "https://github.com/bluetoothswh/laravel-github-login",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Sun",
+            "email": "bluetooth_swh@163.com",
+            "homepage": "https://larashuo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/socialite":"^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraMall\\Github\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+     "extra": {
+        "laravel": {
+            "providers": [
+                "LaraMall\\Github\\GithubServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    }
+}
